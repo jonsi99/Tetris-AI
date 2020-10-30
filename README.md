@@ -1,7 +1,7 @@
 # Tetris AI
 The `tetris.py` script runs a game of Tetris played by an AI. Given a particular piece, the AI simulates a set of key sequences before executing whichever sequence results in the best state.
 
-### Usage
+## Usage
 The script is to be run from the command line.
 ```
 python tetris.py
@@ -20,3 +20,6 @@ To continue from a saved state, specify the file to read from via `-r`.
 python tetris.py -r samefile.json -w samefile.json
 python tetris.py -r afile.json -w anotherfile.json
 ```
+
+## Libraries
+The `numpy` library is required.
